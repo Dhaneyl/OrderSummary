@@ -1,0 +1,123 @@
+body{
+background-image:url(pattern-background-desktop.svg);
+background-color: #E8F6EF;
+font-family: "Red Hat Display", sans-serif;
+text-align: center;
+font-size: 11px;
+font-weight: 500;
+
+}
+.main-container{
+  height: 500px;
+  width: 330px;
+  background-color: white;
+  margin: 0 100% 0 auto;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #999;
+  position: relative;
+  left: 38%;
+  top: 100px;
+
+}
+.image{
+  width: 330px;
+  border-radius: 25px 25px 0 0;
+}
+h1{
+color: black;
+font-weight:bolder;
+}
+p
+{
+  color: black;
+  font-size: 16px;
+}
+h2{
+  color: black;
+  position: absolute;
+  right: 40%;
+  bottom: 40%;
+  font-weight: 900;
+}
+.po{
+  position: absolute;
+  right: 38%;
+  top: 25%;
+}
+.change{
+  position: absolute;
+  left: 80%;
+  bottom: 40%;
+  text-decoration: none;
+  font-size: 15px;
+}
+.change:hover{
+  font-weight: bold;
+  color: black;
+  color: #7340EC;
+}
+.icon{
+  position: absolute;
+  left: 25px;
+  top: 15%;
+}
+.middle-container{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #F1F7E7;
+  position: relative;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5% 5% 5% 5% ;
+  padding: 10%;
+}
+.pay{
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: 'Red Hat Display', sans-serif;
+  width: 185px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 18px;
+  background-color: #433DF6;
+  -webkit-box-shadow: 0 12px 20px 0 #485E78;
+  -moz-box-shadow: 0 12px 20px 0 #485E78;
+  box-shadow: 0 12px 20px 0 #485E78;
+  text-shadow: -5px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto 70% 20px;
+}
+.pay:hover{
+  background: #7340EC;
+ border: solid #8344DE 1px;
+ -webkit-border-radius: 12px;
+ -moz-border-radius: 12px;
+ border-radius: 12px;
+ text-decoration: none;
+}
+.bottom-container{
+  padding: 10%;
+  position: relative;
+}
+.cancel{
+  display: inline-block;
+  position: absolute;
+  left: 132px;
+  text-decoration: none;
+  font-weight: bold;
+  top: 30%;
+  font-size: 15px;
+}
+.cancel:hover{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
